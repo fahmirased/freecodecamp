@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Survey</h1>
+            <p>Thank you for taking part in this survey to help us serve you better</p>
+        </header>
+        <form>
+            <div>
+                <label for="name">Name: <input id="name" name="name" type="text"/></label>
+            </div>
+            <div>
+                <label for="email">Email: <input id="email" name="email" type="email"/></label>
+            </div>
+            <div>
+                <label for="age">Age: <input id="age" name="age" type="number" min="0" max="100"/></label>
+            </div>
+            <div>
+                <label for="category">Category: 
+                    <select id="category" name="category">
+                    <option value="">(select one)</option>
+                    <option value="employee">Employee</option>
+                    <option value="family">Family Member</option>
+                    <option value="committee">Committee</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <p>Are you satisfied with the program?</p>
+                <label for="satisfaction">
+                    <input id="satisfaction" name="satisfaction" type="radio" />Very Satisfied.
+                </label>
+                <label for="satisfaction">
+                    <input id="satisfaction" name="satisfaction" type="radio" />Satisfied.
+                </label>
+                <label for="satisfaction">
+                    <input id="satisfaction" name="satisfaction" type="radio" />Not Satisfied.
+                </label>
+            </div>
+            <div>
+                <p>What you like about this program?</p>
+                <label for="advantage">
+                    <input id="advantage" name="advantage" type="checkbox" />1. Activity
+                </label>
+                <label for="advantage">
+                    <input id="advantage" name="advantage" type="checkbox" />2. Foods
+                </label>
+                <label for="advantage">
+                    <input id="advantage" name="advantage" type="checkbox" />3. Music
+                </label>
+                <label for="advantage">
+                    <input id="advantage" name="advantage" type="checkbox" />4. Memories
+                </label>
+                <label for="advantage">
+                    <input id="advantage" name="advantage" type="checkbox" />5. Others
+                </label>
+            </div>
+        </form>
+    </body>
