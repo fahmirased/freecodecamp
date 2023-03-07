@@ -11,10 +11,10 @@
             <p id="description">Thank you for taking part in this survey to help us serve you better</p>
         </header>
         <form id="survey-form">
-            <label for="name" id="name-label">Name: <input id="name" name="name" type="text" required placeholder="Name"/></label>
-            <label for="email" id="email-label">Email: <input id="email" name="email" type="email" required placeholder="Email"/></label>
-            <label for="number" id="number-label">Age: <input id="number" name="number" type="number" min="0" max="100" required placeholder="Age"/></label>
-            <label for="category">Category: 
+            <label for="name" id="name-label" class="textbox">Enter Name: <input id="name" name="name" type="text" required placeholder="Name"/></label>
+            <label for="email" id="email-label" class="textbox">Enter Email: <input id="email" name="email" type="email" required placeholder="Email"/></label>
+            <label for="number" id="number-label" class="textbox">Enter your Age: <input id="number" name="number" type="number" min="0" max="100" required placeholder="Age"/></label>
+            <label for="category" class="title">Category: 
                 <select id="dropdown" name="category">
                     <option value="">(select one)</option>
                     <option value="employee">Employee</option>
@@ -22,36 +22,35 @@
                     <option value="committee">Committee</option>
                 </select>
             </label>
-
             <p>Are you satisfied with the program?</p>
             <label for="satisfaction">
-                <input id="satisfaction" name="satisfaction" type="radio" value="1"/>Very Satisfied
+                <input id="satisfaction" name="satisfaction" type="radio" value="1" class="inline"/>Very Satisfied
             </label>
             <label for="satisfaction">
-                <input id="satisfaction" name="satisfaction" type="radio" value="2" />Satisfied
+                <input id="satisfaction" name="satisfaction" type="radio" value="2" class="inline"/>Satisfied
             </label>
             <label for="satisfaction">
-                <input id="satisfaction" name="satisfaction" type="radio" value="3" />Not Satisfied
+                <input id="satisfaction" name="satisfaction" type="radio" value="3" class="inline"/>Not Satisfied
             </label>
             <p>What you like about this program?</p>
             <label for="advantage">
-                <input id="advantage" name="advantage" type="checkbox" value="activity"/>1. Activity
+                <input id="advantage" name="advantage" type="checkbox" value="activity" class="inline"/>1. Activity
             </label>
             <label for="advantage">
-                <input id="advantage" name="advantage" type="checkbox" value="foods" />2. Foods
+                <input id="advantage" name="advantage" type="checkbox" value="foods" class="inline"/>2. Foods
             </label>
             <label for="advantage">
-                <input id="advantage" name="advantage" type="checkbox" value="music" />3. Music
+                <input id="advantage" name="advantage" type="checkbox" value="music" class="inline"/>3. Music
             </label>
             <label for="advantage">
-                <input id="advantage" name="advantage" type="checkbox" value="memories" />4. Memories
+                <input id="advantage" name="advantage" type="checkbox" value="memories" class="inline"/>4. Memories
             </label>
             <label for="advantage">
-                <input id="advantage" name="advantage" type="checkbox" value="others" />5. Others
+                <input id="advantage" name="advantage" type="checkbox" value="others" class="inline"/>5. Others
             </label>
             <p>Comments or suggestions</p>
-            <label for="comments">
-                <textarea id="comments" name="comments" placeholder="I suggest..."></textarea>
+            <label for="comments" class="textbox">
+                <textarea id="comments" name="comments" rows="3" cols="20" placeholder="I suggest..."></textarea>
             </label>
             <input id="submit" type="submit" value="submit" />
         </form>

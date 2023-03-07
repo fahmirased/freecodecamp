@@ -1,22 +1,69 @@
 body {
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    background-color: #1b1b32;
-    color: #f5f6f7;
-    font-family: Tahoma;
-    font-size: 16px;
+  background-image: url('https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20200911155100/iStock-1142417166.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
 }
 
-h1, p {
-    margin: 1em auto;
-    text-align: center;
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: brush script mt;
+  color: black;
+  }
+
+p {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: black;
   }
   
-  form {
-    width: 60vw;
-    max-width: 500px;
-    min-width: 300px;
-    margin: 0 auto;
-    padding-bottom: 2em;
+form {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 50px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  margin: 10px 0 10px 0;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+input[type="submit"]:hover{
+  background-color: #fff;
+  color: #333;
+  transition: all 0.3s ease;
+  }
+  
+a {
+    color: #dfdfe2;
+  }
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+
+.textbox {
+    margin-right: 20px;
   }
